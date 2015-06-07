@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		ED0293721B21282A0084C697 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0293711B21282A0084C697 /* main.m */; };
 		ED0293751B21282A0084C697 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0293741B21282A0084C697 /* AppDelegate.m */; };
-		ED0293781B21282A0084C697 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0293771B21282A0084C697 /* ViewController.m */; };
-		ED02937B1B21282A0084C697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0293791B21282A0084C697 /* Main.storyboard */; };
 		ED02937D1B21282A0084C697 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED02937C1B21282A0084C697 /* Images.xcassets */; };
 		ED0293801B21282A0084C697 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED02937E1B21282A0084C697 /* LaunchScreen.xib */; };
-		ED02938C1B21282B0084C697 /* WalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02938B1B21282B0084C697 /* WalletTests.m */; };
+		ED02939E1B213C260084C697 /* FLUMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = ED02939D1B213C260084C697 /* FLUMoney.m */; };
+		ED0293A31B213D4A0084C697 /* FLUMoneyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0293A21B213D4A0084C697 /* FLUMoneyTest.m */; };
+		ED5540EF1B23EE6B0031A12C /* FLUBrokerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5540EE1B23EE6B0031A12C /* FLUBrokerTest.m */; };
+		ED5540F21B23EF670031A12C /* FLUBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5540F11B23EF670031A12C /* FLUBroker.m */; };
+		ED5540F41B24006E0031A12C /* FLUWalletTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5540F31B24006E0031A12C /* FLUWalletTest.m */; };
+		ED5540F71B2402980031A12C /* FLUWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5540F61B2402980031A12C /* FLUWallet.m */; };
+		EDE16E591B24A0A100CFB5A9 /* FLUControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE16E581B24A0A100CFB5A9 /* FLUControllerTest.m */; };
+		EDE16E5E1B24C4BE00CFB5A9 /* FLUWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE16E5C1B24C4BE00CFB5A9 /* FLUWalletTableViewController.m */; };
+		EDE16E5F1B24C4BE00CFB5A9 /* FLUWalletTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE16E5D1B24C4BE00CFB5A9 /* FLUWalletTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +38,23 @@
 		ED0293711B21282A0084C697 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED0293731B21282A0084C697 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED0293741B21282A0084C697 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED0293761B21282A0084C697 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED0293771B21282A0084C697 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ED02937A1B21282A0084C697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED02937C1B21282A0084C697 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED02937F1B21282A0084C697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED0293851B21282B0084C697 /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED02938A1B21282B0084C697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED02938B1B21282B0084C697 /* WalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalletTests.m; sourceTree = "<group>"; };
+		ED02939C1B213C260084C697 /* FLUMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLUMoney.h; sourceTree = "<group>"; };
+		ED02939D1B213C260084C697 /* FLUMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUMoney.m; sourceTree = "<group>"; };
+		ED0293A21B213D4A0084C697 /* FLUMoneyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUMoneyTest.m; sourceTree = "<group>"; };
+		ED5540EE1B23EE6B0031A12C /* FLUBrokerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUBrokerTest.m; sourceTree = "<group>"; };
+		ED5540F01B23EF670031A12C /* FLUBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLUBroker.h; sourceTree = "<group>"; };
+		ED5540F11B23EF670031A12C /* FLUBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUBroker.m; sourceTree = "<group>"; };
+		ED5540F31B24006E0031A12C /* FLUWalletTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUWalletTest.m; sourceTree = "<group>"; };
+		ED5540F51B2402980031A12C /* FLUWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLUWallet.h; sourceTree = "<group>"; };
+		ED5540F61B2402980031A12C /* FLUWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUWallet.m; sourceTree = "<group>"; };
+		EDE16E581B24A0A100CFB5A9 /* FLUControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUControllerTest.m; sourceTree = "<group>"; };
+		EDE16E5B1B24C4BE00CFB5A9 /* FLUWalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLUWalletTableViewController.h; sourceTree = "<group>"; };
+		EDE16E5C1B24C4BE00CFB5A9 /* FLUWalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLUWalletTableViewController.m; sourceTree = "<group>"; };
+		EDE16E5D1B24C4BE00CFB5A9 /* FLUWalletTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FLUWalletTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +96,10 @@
 		ED02936E1B21282A0084C697 /* Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				EDE16E5A1B24C4A000CFB5A9 /* Controllers */,
+				ED0293961B213A230084C697 /* Models */,
 				ED0293731B21282A0084C697 /* AppDelegate.h */,
 				ED0293741B21282A0084C697 /* AppDelegate.m */,
-				ED0293761B21282A0084C697 /* ViewController.h */,
-				ED0293771B21282A0084C697 /* ViewController.m */,
-				ED0293791B21282A0084C697 /* Main.storyboard */,
 				ED02937C1B21282A0084C697 /* Images.xcassets */,
 				ED02937E1B21282A0084C697 /* LaunchScreen.xib */,
 				ED02936F1B21282A0084C697 /* Supporting Files */,
@@ -105,7 +119,8 @@
 		ED0293881B21282B0084C697 /* WalletTests */ = {
 			isa = PBXGroup;
 			children = (
-				ED02938B1B21282B0084C697 /* WalletTests.m */,
+				EDE16E571B24A08600CFB5A9 /* Controllers */,
+				ED02939F1B213D260084C697 /* Models */,
 				ED0293891B21282B0084C697 /* Supporting Files */,
 			);
 			path = WalletTests;
@@ -117,6 +132,47 @@
 				ED02938A1B21282B0084C697 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED0293961B213A230084C697 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED02939C1B213C260084C697 /* FLUMoney.h */,
+				ED02939D1B213C260084C697 /* FLUMoney.m */,
+				ED5540F01B23EF670031A12C /* FLUBroker.h */,
+				ED5540F11B23EF670031A12C /* FLUBroker.m */,
+				ED5540F51B2402980031A12C /* FLUWallet.h */,
+				ED5540F61B2402980031A12C /* FLUWallet.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED02939F1B213D260084C697 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED0293A21B213D4A0084C697 /* FLUMoneyTest.m */,
+				ED5540EE1B23EE6B0031A12C /* FLUBrokerTest.m */,
+				ED5540F31B24006E0031A12C /* FLUWalletTest.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDE16E571B24A08600CFB5A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDE16E581B24A0A100CFB5A9 /* FLUControllerTest.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EDE16E5A1B24C4A000CFB5A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDE16E5B1B24C4BE00CFB5A9 /* FLUWalletTableViewController.h */,
+				EDE16E5C1B24C4BE00CFB5A9 /* FLUWalletTableViewController.m */,
+				EDE16E5D1B24C4BE00CFB5A9 /* FLUWalletTableViewController.xib */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +255,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED02937B1B21282A0084C697 /* Main.storyboard in Resources */,
 				ED0293801B21282A0084C697 /* LaunchScreen.xib in Resources */,
+				EDE16E5F1B24C4BE00CFB5A9 /* FLUWalletTableViewController.xib in Resources */,
 				ED02937D1B21282A0084C697 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0293781B21282A0084C697 /* ViewController.m in Sources */,
 				ED0293751B21282A0084C697 /* AppDelegate.m in Sources */,
 				ED0293721B21282A0084C697 /* main.m in Sources */,
+				EDE16E5E1B24C4BE00CFB5A9 /* FLUWalletTableViewController.m in Sources */,
+				ED5540F71B2402980031A12C /* FLUWallet.m in Sources */,
+				ED5540F21B23EF670031A12C /* FLUBroker.m in Sources */,
+				ED02939E1B213C260084C697 /* FLUMoney.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +288,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED02938C1B21282B0084C697 /* WalletTests.m in Sources */,
+				ED5540EF1B23EE6B0031A12C /* FLUBrokerTest.m in Sources */,
+				EDE16E591B24A0A100CFB5A9 /* FLUControllerTest.m in Sources */,
+				ED5540F41B24006E0031A12C /* FLUWalletTest.m in Sources */,
+				ED0293A31B213D4A0084C697 /* FLUMoneyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +306,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		ED0293791B21282A0084C697 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED02937A1B21282A0084C697 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED02937E1B21282A0084C697 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,6 +472,7 @@
 				ED0293911B21282B0084C697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED0293921B21282B0084C697 /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +481,7 @@
 				ED0293941B21282B0084C697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
